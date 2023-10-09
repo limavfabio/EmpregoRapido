@@ -5,6 +5,7 @@
     "@hotwired/turbo-rails": "^7.3.0",
     "autoprefixer": "latest",
     "esbuild": "^0.19.4",
+    "flowbite": "^1.8.1",
     "postcss": "latest",
     "tailwindcss": "latest"
   },
