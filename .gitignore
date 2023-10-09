@@ -33,6 +33,9 @@
 /app/assets/builds/*
 !/app/assets/builds/.keep
 
+# Ignore redis dump file
+/dump.rdb
+
 /node_modules
 
 # Yarn ignore
@@ -42,5 +45,3 @@
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
-/dump.rdb
