@@ -1,4 +1,11 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
+  theme: {
+    colors: {
+      primary: colors.indigo
+    }
+  },
   content: [
     './app/views/**/*.html.erb',
     './app/helpers/**/*.rb',
